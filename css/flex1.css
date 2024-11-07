@@ -1,0 +1,25 @@
+.parent {
+    display: flex; /* Flexbox para alinear los elementos en línea */
+}
+
+.item {
+    border: 1px solid;
+    opacity: 0.9;
+    width: 100px;
+    height: 100px;
+    background: rgb(108, 151, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Estilos específicos para el primer y último elemento */
+.item:first-child {
+    background: rgb(145, 145, 12);
+}
+
+.item:last-child {
+    background: rgb(210, 12, 65);
+}
